@@ -12,5 +12,14 @@ print(loc.country)
 
 print(type(loc))
 print("------------")
-loc2 = Location("Jason Elington", "Indonesia")
+loc2 = Location("Tomas", "Portugal")
 loc2.myLocation()
+
+loc3 = Location("Ying", "China")
+loc4 = Location("Amare", "Kenya")
+
+loc3.myLocation()
+loc4.myLocation()
+
+your_loc = Location("Your_Name", "Your_Country")
+your_loc.myLocation()
